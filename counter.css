@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .start-box {
+  margin: 20px 0;
+}
+.container .start-box #input-counter {
+  padding: 7px;
+  width: 300px;
+  outline-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+}
+.container .start-box #start-counter {
+  border: none;
+  padding: 7px 10px;
+  cursor: pointer;
+  background: #e74c3c;
+  color: white;
+  border-radius: 2px;
+}
+.container #error-massage {
+  color: #e74c3c;
+  font-size: 0.9em;
+  display: none;
+}
+.container #error-massage.active {
+  display: block;
+}
+.container .c100 {
+  display: none;
+}
+.container .message {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+.container .message .loading {
+  color: #e74c3c;
+  display: none;
+}
+.container .message .success {
+  color: #27ae60;
+  display: none;
+}/*# sourceMappingURL=counter.css.map */
